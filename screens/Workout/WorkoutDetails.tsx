@@ -1,11 +1,11 @@
 import React from "react";
+import { Text, View } from "react-native";
 
 const WorkoutDetails: React.FC = () => {
   return (
-    <div>
-      <h1>Workout Details</h1>
-      {/* Add your content here */}
-    </div>
+    <View>
+      <Text>Workout Details</Text>
+    </View>
   );
 };
 
