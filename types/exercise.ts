@@ -1,5 +1,10 @@
 export type Exercise = {
-  id: number;
+  bodyPart: string;
+  equipment: string;
+  gifUrl: string;
+  id: string;
   name: string;
-  animation_url: string;
+  target: string;
+  secondaryMuscles: string[];
+  instructions: string[];
 };
